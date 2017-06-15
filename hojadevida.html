@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoja de vida</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+			font-family: times, verdana, arial;
+			margin-bottom: 50px;
+		}
+		h1 {
+			margin-left: auto;
+			text-align: center;
+		}
+		.container {
+			width: 60%;
+			margin: auto;
+		}
+		.caja {
+			margin: 5px;
+			padding: 20px;
+			border: 1px solid #cbccc1;
+		}
+		.caja h2 {
+			margin: 0px;
+		}
+		.contenidocaja1, .info-universidad, .info-colegio {
+			height: 180px;
+		}
+		.info-universidad, .info-colegio { 
+			line-height: 0.6em;
+		}
+		#profile, #universidad, #colegio {
+			height: 100%;
+			margin-right: 10px;
+			float: left;
+		}
+		#caja2 h2 {
+			text-align: center;
+		}
+		.intitucion {
+			font-weight: bolder;
+		}
+		.duracion {
+			font-style: italic;
+		}
+		.contenidocaja4 {
+			padding: 30px;
+		}
+		.item {
+			display: inline;
+			background-color: #d5d5d5;
+			margin: 20px;
+			padding: 10px;
+			padding-left: 0px;
+			padding-right: 25px;
+			box-shadow: 5px 5px 3px #888888;
+			border-radius: 20px;
+		}
+		.badge {
+			width: 40px;
+			height: 40px;
+			display: inline;
+			padding: 10px;
+			background-color: blue;
+			color: white;
+			border-radius: 20px;
+		}
+		.hab {
+			padding-left: 10px;
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<h1>Hoja de vida</h1>
+
+		<div class="caja" id="caja1">
+			<h2> Arelys Vintimilla </h2>
+			<div class="contenidocaja1">
+				<img id="profile" src="img_cv/profile.jpg" alt="Profile">
+				<div class="info">
+					<p>
+						<strong>Carrera:</strong> Ingenier&iacute;a en Computaci&oacute;n
+					</p>
+					<p>
+						<strong>Lugar de estudios:</strong> Escuela Superior Polit&eacute;cnica del Litoral - ESPOL
+					</p>
+					<p>
+						<strong>Ciudad de nacimiento:</strong> Guayaquil
+					</p>
+					<p>
+						<strong>Pa&iacute;s de nacimiento:</strong> Ecuador
+					</p>
+					<p>
+						<strong>ZIP Code:</strong> 593
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja" id="caja2">
+			<h2> Datos personales </h2>
+			<div class="contenidocaja2">
+				<div class="info">
+					<p>
+						<strong>Direcci&oacute;n del domicilio:</strong> Av. Siempreviva #742
+					</p>
+					<p>
+						<strong>Tel&eacute;fono convencional:</strong> (04) 2-555555
+					</p>
+					<p>
+						<strong>Tel&eacute;fono celular:</strong> 0900000000
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja" id="caja3">
+			<h2> Educaci&oacute;n </h2>
+			<div class="contenidocaja3">
+				<div class="info-universidad">
+					<img id="universidad" src="img_cv/universidad.jpg">
+					<div class="info">
+						<h4 class="institucion"> Universidad </h4>
+						<p class="duracion"> A&ntilde;o inicio - A&ntilde;o fin </p>
+						<p> Materia 1 - Habilidad 1 </p>
+						<p> Materia 2 - Habilidad 2 </p>
+						<p> Materia 3 - Habilidad 3 </p>
+						<p> Materia 4 - Habilidad 4 </p>
+					</div>
+				</div>
+				<hr>
+				<div class="info-colegio">
+					<img id="colegio" src="img_cv/colegio.jpg">
+					<div class="info">
+						<h4 class="institucion"> Colegio </h4>
+						<p class="duracion"> A&ntilde;o inicio - A&ntilde;o fin </p>
+						<p> Materia 1 - Habilidad 1 </p>
+						<p> Materia 2 - Habilidad 2 </p>
+						<p> Materia 3 - Habilidad 3 </p>
+						<p> Materia 4 - Habilidad 4 </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja" id="caja4">
+			<h2> Habilidades t&eacute;cnicas </h2>
+			<div class="contenidocaja4"> 
+				<div class="item">
+					<div class="badge">15</div>
+					<div class="hab">HTML5</div>
+				</div>
+				<div class="item">
+					<div class="badge">12</div>
+					<div class="hab">CSS3</div>
+				</div>
+				<div class="item">
+					<div class="badge">15</div>
+					<div class="hab">PYTHON</div>
+				</div>
+				<div class="item">
+					<div class="badge">10</div>
+					<div class="hab">JAVA</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
